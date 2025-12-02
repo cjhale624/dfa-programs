@@ -1,0 +1,863 @@
+================================================================================
+PROGRAM 1: ENUMERATE DFAs
+================================================================================
+Enumerating the first 20 DFAs over alphabet {a, b}:
+
+DFA #1:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": []
+}
+
+DFA #2:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0"
+  ]
+}
+
+DFA #3:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+
+DFA #4:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0",
+    "q1"
+  ]
+}
+
+DFA #5:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": []
+}
+
+DFA #6:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0"
+  ]
+}
+
+DFA #7:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+
+DFA #8:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0",
+    "q1"
+  ]
+}
+
+DFA #9:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q1"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": []
+}
+
+DFA #10:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q1"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0"
+  ]
+}
+
+DFA #11:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q1"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+
+DFA #12:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q1"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0",
+    "q1"
+  ]
+}
+
+DFA #13:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q1"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": []
+}
+
+DFA #14:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q1"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0"
+  ]
+}
+
+DFA #15:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q1"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+
+DFA #16:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q1"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0",
+    "q1"
+  ]
+}
+
+DFA #17:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q1",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": []
+}
+
+DFA #18:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q1",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0"
+  ]
+}
+
+DFA #19:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q1",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+
+DFA #20:
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q1",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0",
+    "q1"
+  ]
+}
+
+================================================================================
+PROGRAM 2: VALIDATE DFA
+================================================================================
+
+Valid DFA Example:
+{
+  "states": [
+    "q0",
+    "q1",
+    "q2"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q2"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q2"
+    },
+    "q2": {
+      "a": "q2",
+      "b": "q2"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+Validation Result: 1
+
+Invalid DFA Example 1 (Missing transitions):
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+Validation Result: 0
+
+Invalid DFA Example 2 (Invalid transition target):
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q2",
+      "b": "q0"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+Validation Result: 0
+
+Invalid DFA Example 3 (Invalid start state):
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q1"
+    }
+  },
+  "start_state": "q2",
+  "accept_states": [
+    "q1"
+  ]
+}
+Validation Result: 0
+
+================================================================================
+PROGRAM 3: CONVERT DFA TO TM DECIDER AND SIMULATE
+================================================================================
+
+Original DFA (accepts strings with even number of 'a's):
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q1"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0"
+  ]
+}
+
+Converted Turing Machine:
+{
+  "states": [
+    "q0",
+    "q1",
+    "q_accept",
+    "q_reject"
+  ],
+  "alphabet": [
+    "a",
+    "b",
+    "_"
+  ],
+  "transitions": {
+    "q0": {
+      "a": {
+        "next_state": "q1",
+        "write_symbol": "a",
+        "move": "R"
+      },
+      "b": {
+        "next_state": "q0",
+        "write_symbol": "b",
+        "move": "R"
+      },
+      "_": {
+        "next_state": "q_accept",
+        "write_symbol": "_",
+        "move": "R"
+      }
+    },
+    "q1": {
+      "a": {
+        "next_state": "q0",
+        "write_symbol": "a",
+        "move": "R"
+      },
+      "b": {
+        "next_state": "q1",
+        "write_symbol": "b",
+        "move": "R"
+      },
+      "_": {
+        "next_state": "q_reject",
+        "write_symbol": "_",
+        "move": "R"
+      }
+    }
+  },
+  "start_state": "q0",
+  "accept_state": "q_accept",
+  "reject_state": "q_reject",
+  "blank_symbol": "_"
+}
+
+Simulating TM on input string: "aab"
+
+Tape Configurations:
+Step 0: State=q0, Tape: [a] a b
+Step 1: State=q1, Tape: a [a] b
+Step 2: State=q0, Tape: a a [b]
+Step 3: State=q0, Tape: a a b
+Step 4: State=q_accept, Tape: a a b _
+
+Result: ACCEPTED
+
+========================================
+Simulating TM on input string: "aa"
+
+Tape Configurations:
+Step 0: State=q0, Tape: [a] a
+Step 1: State=q1, Tape: a [a]
+Step 2: State=q0, Tape: a a
+Step 3: State=q_accept, Tape: a a _
+
+Result: ACCEPTED
+
+================================================================================
+PROGRAM 4: DETERMINE IF DFA RECOGNIZES EMPTY LANGUAGE
+================================================================================
+
+Test Case 1: DFA with reachable accept state
+{
+  "states": [
+    "q0",
+    "q1",
+    "q2"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q1",
+      "b": "q1"
+    },
+    "q2": {
+      "a": "q2",
+      "b": "q2"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q1"
+  ]
+}
+Recognizes Empty Language: false
+
+Test Case 2: DFA with unreachable accept state
+{
+  "states": [
+    "q0",
+    "q1",
+    "q2"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q0",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q1",
+      "b": "q1"
+    },
+    "q2": {
+      "a": "q2",
+      "b": "q2"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q2"
+  ]
+}
+Recognizes Empty Language: true
+
+Test Case 3: DFA with no accept states
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q0",
+      "b": "q1"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": []
+}
+Recognizes Empty Language: true
+
+Test Case 4: DFA where start state is accept state
+{
+  "states": [
+    "q0",
+    "q1"
+  ],
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "transitions": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q1",
+      "b": "q1"
+    }
+  },
+  "start_state": "q0",
+  "accept_states": [
+    "q0"
+  ]
+}
+Recognizes Empty Language: false
+
+================================================================================
+ALL PROGRAMS COMPLETED
+================================================================================
